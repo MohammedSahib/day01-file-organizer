@@ -159,11 +159,6 @@ def organize_folder(folder, dry_run):
     ".apk": "Programs",
     ".deb": "Programs",
     ".rpm": "Programs",
-    # Fonts
-    ".ttf": "Fonts",
-    ".otf": "Fonts",
-    ".woff": "Fonts",
-    ".woff2": "Fonts",
     # 3D / CAD
     ".obj": "3D",
     ".fbx": "3D",
@@ -171,15 +166,7 @@ def organize_folder(folder, dry_run):
     ".blend": "3D",
     ".dae": "3D",
     ".3ds": "3D",
-    # E-books
-    ".epub": "Ebooks",
-    ".mobi": "Ebooks",
-    ".azw": "Ebooks",
-    ".azw3": "Ebooks",
     # Subtitles
-    ".srt": "Subtitles",
-    ".ass": "Subtitles",
-    ".ssa": "Subtitles",
     ".sub": "Subtitles",
 }
         destination_folders = set(categories.values()) | {"Other"}
