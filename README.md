@@ -29,9 +29,7 @@ Files are organized into categories such as:
 - Data
 - Disk Images
 - Programs
-- Fonts
 - 3D
-- Ebooks
 - Subtitles
 - Other
 
@@ -41,15 +39,27 @@ Run the program by providing the directory you want to organize:
 
 ```bash
 python organizer.py <directory>
-For example: 
-    python organizer.py Downloads
-To preview what the program would do without moving any files please type:
- python organizer.py Downloads --dry-run
- 
-Technologies:
-Python
-pathlib
-argparse
-Git / GitHub
+```
 
-This project was built as a practical Python exercise to learn filesystem manipulation, command-line interfaces, error handling, recursion, and writing a small utility  from scratch.
+For example:
+
+```bash
+python organizer.py Downloads
+```
+
+To preview what the program would do without moving any files:
+
+```bash
+python organizer.py Downloads --dry-run
+```
+
+## Technologies
+
+- Python
+- pathlib
+- argparse
+- Git / GitHub
+
+## Project Purpose
+
+This project was built as a practical Python exercise to learn filesystem manipulation, command-line interfaces, error handling, recursion, and writing a small utility from scratch.
